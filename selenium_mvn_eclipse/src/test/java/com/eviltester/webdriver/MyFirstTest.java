@@ -15,6 +15,8 @@ public class MyFirstTest {
 		Assert.assertTrue("title should start differently", driver.getTitle().startsWith("Selenium Simplified"));
 		driver.close();
 		System.out.print("Changed");
+		System.out.println("This Changed should be visible");
+		
 	}
 	//public static void main(String[] args) {
 		// TODO Auto-generated method stub
